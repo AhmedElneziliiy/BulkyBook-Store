@@ -36,11 +36,5 @@ BulkyBook Store is a multi-layered bookstore web application that supports indiv
 ## Getting Started
 
 1. Set your SQL Server connection string and Stripe keys in `appsettings.json`.
-2. Apply migrations:
-   ```bash
-   dotnet ef database update
-   ```
-3. Run the app:
-   ```bash
-   dotnet run --project BulkyBook.Web
-   ```
+2. Apply migrations: `dotnet ef database update`
+3. Run: `dotnet run --project BulkyBook.Web`
